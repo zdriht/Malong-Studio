@@ -1,0 +1,236 @@
+Attached Element Context from Integrated Browser
+
+Element: div.container
+
+URL: file:///C:/Users/user/Downloads/THIRDY%20CODES/website.html
+
+HTML Path: div.container
+
+Outer HTML:
+```html
+<div class="container">
+    <nav>
+      <div class="brand-group">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <div class="brand">MALONG STUDIO</div>
+      </div>
+      <div class="nav-links" aria-label="Main navigation">
+        <a href="#home" data-nav="home">Home</a>
+        <a href="#catalog" data-nav="collections">Collections</a>
+        <a href="#custom-promo" data-nav="custom">Design Your Own</a>
+        <a href="#heritage" data-nav="heritage">About Us</a>
+      </div>
+      <div class="tagline">Woven with Heritage. Made in the Philippines.</div>
+    </nav>
+
+    <section id="catalogView" class="">
+      <div class="hero" id="home">
+        <div class="hero-copy">
+          <span class="eyebrow">Philippine textile atelier</span>
+          <h1>Threads of Heritage. Woven for Today.</h1>
+          <p class="subtitle">Discover the beauty of Filipino weaving through traditional malong designs. Celebrate Mindanao craftsmanship or create a unique piece that reflects your style.</p>
+          <div class="hero-actions">
+            <button type="button" class="primary" onclick="document.getElementById('catalog').scrollIntoView({behavior:'smooth'});">Explore Collection</button>
+            <button type="button" class="secondary" onclick="document.querySelector('[data-custom=\'true\']')?.click();">Design Your Own</button>
+          </div>
+        </div>
+      </div>
+
+      <section class="collection-section" aria-labelledby="collectionTitle">
+        <div class="section-heading">
+          <span class="section-kicker">Woven stories of the south</span>
+          <h2 id="collectionTitle">Discover Our Collections</h2>
+          <p>Every thread tells a story. Explore traditional patterns inspired by the rich weaving heritage of the Philippines.</p>
+        </div>
+      <div id="catalog" class="catalog"><button class="card" type="button" data-index="0"><div class="card-shell"><div class="card-preview"><svg viewBox="0 0 300 370" aria-hidden="true"><defs><pattern id="card-0-0" width="24" height="24" patternUnits="userSpaceOnUse" y="44"><rect width="24" height="24" fill="#8f1326"></rect></pattern><pattern id="card-0-1" width="24" height="24" patternUnits="userSpaceOnUse" y="60.66666666666667"><rect width="24" height="24" fill="#8f1326"></rect><rect x="4" width="5" height="24" fill="#f2b705"></rect><rect x="15" width="2" height="24" fill="#f2b705"></rect></pattern><pattern id="card-0-2" width="24" height="24" patternUnits="userSpaceOnUse" y="94"><rect width="24" height="24" fill="#f2b705"></rect><path d="M0 12C6 0 12 0 12 12S18 24 24 12" stroke="#8f1326" stroke-width="2.5" fill="none"></path><circle cx="12" cy="12" r="2.4" fill="#8f1326"></circle></pattern><pattern id="card-0-3" width="24" height="24" patternUnits="userSpaceOnUse" y="177.33333333333331"><rect width="24" height="24" fill="#1f6f50"></rect><path d="M12 2 22 12 12 22 2 12Z" fill="#f2b705"></path><path d="M12 8 16 12 12 16 8 12Z" fill="#1f6f50"></path></pattern><pattern id="card-0-4" width="24" height="24" patternUnits="userSpaceOnUse" y="210.66666666666666"><rect width="24" height="24" fill="#f2b705"></rect><path d="M0 12C6 0 12 0 12 12S18 24 24 12" stroke="#8f1326" stroke-width="2.5" fill="none"></path><circle cx="12" cy="12" r="2.4" fill="#8f1326"></circle></pattern><pattern id="card-0-5" width="24" height="24" patternUnits="userSpaceOnUse" y="294"><rect width="24" height="24" fill="#8f1326"></rect><rect x="4" width="5" height="24" fill="#f2b705"></rect><rect x="15" width="2" height="24" fill="#f2b705"></rect></pattern><pattern id="card-0-6" width="24" height="24" patternUnits="userSpaceOnUse" y="327.3333333333333"><rect width="24" height="24" fill="#8f1326"></rect></pattern><clipPath id="card-0-clip"><path d="M64 26H236L268 342Q150 360 32 342Z"></path></clipPath><linearGradient id="card-0-grad" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".4"></stop><stop offset=".22" stop-color="#000" stop-opacity="0"></stop><stop offset=".62" stop-color="#fff" stop-opacity=".12"></stop><stop offset=".78" stop-color="#000" stop-opacity="0"></stop><stop offset="1" stop-color="#000" stop-opacity=".4"></stop></linearGradient></defs><g clip-path="url(#card-0-clip)"><rect y="26" width="300" height="18" fill="#2a2438"></rect><rect y="44" width="300" height="17.166666666666668" fill="url(#card-0-0)"></rect><line x1="0" x2="300" y1="60.66666666666667" y2="60.66666666666667" stroke="#000" stroke-opacity=".18"></line><rect y="60.66666666666667" width="300" height="33.833333333333336" fill="url(#card-0-1)"></rect><line x1="0" x2="300" y1="94" y2="94" stroke="#000" stroke-opacity=".18"></line><rect y="94" width="300" height="83.83333333333333" fill="url(#card-0-2)"></rect><line x1="0" x2="300" y1="177.33333333333331" y2="177.33333333333331" stroke="#000" stroke-opacity=".18"></line><rect y="177.33333333333331" width="300" height="33.833333333333336" fill="url(#card-0-3)"></rect><line x1="0" x2="300" y1="210.66666666666666" y2="210.66666666666666" stroke="#000" stroke-opacity=".18"></line><rect y="210.66666666666666" width="300" height="83.83333333333333" fill="url(#card-0-4)"></rect><line x1="0" x2="300" y1="294" y2="294" stroke="#000" stroke-opacity=".18"></line><rect y="294" width="300" height="33.833333333333336" fill="url(#card-0-5)"></rect><line x1="0" x2="300" y1="327.3333333333333" y2="327.3333333333333" stroke="#000" stroke-opacity=".18"></line><rect y="327.3333333333333" width="300" height="17.166666666666668" fill="url(#card-0-6)"></rect><line x1="0" x2="300" y1="344" y2="344" stroke="#000" stroke-opacity=".18"></line><rect y="20" width="300" height="350" fill="url(#card-0-grad)"></rect></g><path d="M64 26H236L268 342Q150 360 32 342Z" fill="none" stroke="#000" stroke-opacity=".25"></path></svg></div><h3>Landap</h3><small>Maranao</small><span class="price-tag">From ₱450</span></div></button><button class="card" type="button" data-index="1"><div class="card-shell"><div class="card-preview"><svg viewBox="0 0 300 370" aria-hidden="true"><defs><pattern id="card-1-0" width="24" height="24" patternUnits="userSpaceOnUse" y="44"><rect width="24" height="24" fill="#14213d"></rect><rect x="4" width="5" height="24" fill="#f6d365"></rect><rect x="15" width="2" height="24" fill="#f6d365"></rect></pattern><pattern id="card-1-1" width="24" height="24" patternUnits="userSpaceOnUse" y="64"><rect width="24" height="24" fill="#a3152b"></rect><path d="M12 2 22 12 12 22 2 12Z" fill="#f6d365"></path><path d="M12 8 16 12 12 16 8 12Z" fill="#a3152b"></path></pattern><pattern id="card-1-2" width="24" height="24" patternUnits="userSpaceOnUse" y="124"><rect width="24" height="24" fill="#14213d"></rect><path d="M0 17 6 7 12 17 18 7 24 17" stroke="#f6d365" stroke-width="3" fill="none"></path></pattern><pattern id="card-1-3" width="24" height="24" patternUnits="userSpaceOnUse" y="164"><rect width="24" height="24" fill="#a3152b"></rect><path d="M12 2 22 12 12 22 2 12Z" fill="#f6d365"></path><path d="M12 8 16 12 12 16 8 12Z" fill="#a3152b"></path></pattern><pattern id="card-1-4" width="24" height="24" patternUnits="userSpaceOnUse" y="224"><rect width="24" height="24" fill="#14213d"></rect><path d="M0 17 6 7 12 17 18 7 24 17" stroke="#f6d365" stroke-width="3" fill="none"></path></pattern><pattern id="card-1-5" width="24" height="24" patternUnits="userSpaceOnUse" y="264"><rect width="24" height="24" fill="#a3152b"></rect><path d="M12 2 22 12 12 22 2 12Z" fill="#f6d365"></path><path d="M12 8 16 12 12 16 8 12Z" fill="#a3152b"></path></pattern><pattern id="card-1-6" width="24" height="24" patternUnits="userSpaceOnUse" y="324"><rect width="24" height="24" fill="#14213d"></rect><rect x="4" width="5" height="24" fill="#f6d365"></rect><rect x="15" width="2" height="24" fill="#f6d365"></rect></pattern><clipPath id="card-1-clip"><path d="M64 26H236L268 342Q150 360 32 342Z"></path></clipPath><linearGradient id="card-1-grad" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".4"></stop><stop offset=".22" stop-color="#000" stop-opacity="0"></stop><stop offset=".62" stop-color="#fff" stop-opacity=".12"></stop><stop offset=".78" stop-color="#000" stop-opacity="0"></stop><stop offset="1" stop-color="#000" stop-opacity=".4"></stop></linearGradient></defs><g clip-path="url(#card-1-clip)"><rect y="26" width="300" height="18" fill="#2a2438"></rect><rect y="44" width="300" height="20.5" fill="url(#card-1-0)"></rect><line x1="0" x2="300" y1="64" y2="64" stroke="#000" stroke-opacity=".18"></line><rect y="64" width="300" height="60.5" fill="url(#card-1-1)"></rect><line x1="0" x2="300" y1="124" y2="124" stroke="#000" stroke-opacity=".18"></line><rect y="124" width="300" height="40.5" fill="url(#card-1-2)"></rect><line x1="0" x2="300" y1="164" y2="164" stroke="#000" stroke-opacity=".18"></line><rect y="164" width="300" height="60.5" fill="url(#card-1-3)"></rect><line x1="0" x2="300" y1="224" y2="224" stroke="#000" stroke-opacity=".18"></line><rect y="224" width="300" height="40.5" fill="url(#card-1-4)"></rect><line x1="0" x2="300" y1="264" y2="264" stroke="#000" stroke-opacity=".18"></line><rect y="264" width="300" height="60.5" fill="url(#card-1-5)"></rect><line x1="0" x2="300" y1="324" y2="324" stroke="#000" stroke-opacity=".18"></line><rect y="324" width="300" height="20.5" fill="url(#card-1-6)"></rect><line x1="0" x2="300" y1="344" y2="344" stroke="#000" stroke-opacity=".18"></line><rect y="20" width="300" height="350" fill="url(#card-1-grad)"></rect></g><path d="M64 26H236L268 342Q150 360 32 342Z" fill="none" stroke="#000" stroke-opacity=".25"></path></svg></div><h3>Inaul</h3><small>Maguindanao</small><span class="price-tag">From ₱500</span></div></button><button class="card" type="button" data-index="2"><div class="card-shell"><div class="card-preview"><svg viewBox="0 0 300 370" aria-hidden="true"><defs><pattern id="card-2-0" width="24" height="24" patternUnits="userSpaceOnUse" y="44"><rect width="24" height="24" fill="#c1272d"></rect><rect width="12" height="12" fill="#ffb703"></rect><rect x="12" y="12" width="12" height="12" fill="#ffb703"></rect></pattern><pattern id="card-2-1" width="24" height="24" patternUnits="userSpaceOnUse" y="94"><rect width="24" height="24" fill="#023047"></rect><path d="M12 2 22 12 12 22 2 12Z" fill="#fb8500"></path><path d="M12 8 16 12 12 16 8 12Z" fill="#023047"></path></pattern><pattern id="card-2-2" width="24" height="24" patternUnits="userSpaceOnUse" y="169"><rect width="24" height="24" fill="#c1272d"></rect><path d="M0 17 6 7 12 17 18 7 24 17" stroke="#ffb703" stroke-width="3" fill="none"></path></pattern><pattern id="card-2-3" width="24" height="24" patternUnits="userSpaceOnUse" y="194"><rect width="24" height="24" fill="#023047"></rect><path d="M12 2 22 12 12 22 2 12Z" fill="#fb8500"></path><path d="M12 8 16 12 12 16 8 12Z" fill="#023047"></path></pattern><pattern id="card-2-4" width="24" height="24" patternUnits="userSpaceOnUse" y="269"><rect width="24" height="24" fill="#c1272d"></rect><rect width="12" height="12" fill="#ffb703"></rect><rect x="12" y="12" width="12" height="12" fill="#ffb703"></rect></pattern><pattern id="card-2-5" width="24" height="24" patternUnits="userSpaceOnUse" y="319"><rect width="24" height="24" fill="#c1272d"></rect><path d="M0 17 6 7 12 17 18 7 24 17" stroke="#ffb703" stroke-width="3" fill="none"></path></pattern><clipPath id="card-2-clip"><path d="M64 26H236L268 342Q150 360 32 342Z"></path></clipPath><linearGradient id="card-2-grad" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".4"></stop><stop offset=".22" stop-color="#000" stop-opacity="0"></stop><stop offset=".62" stop-color="#fff" stop-opacity=".12"></stop><stop offset=".78" stop-color="#000" stop-opacity="0"></stop><stop offset="1" stop-color="#000" stop-opacity=".4"></stop></linearGradient></defs><g clip-path="url(#card-2-clip)"><rect y="26" width="300" height="18" fill="#2a2438"></rect><rect y="44" width="300" height="50.5" fill="url(#card-2-0)"></rect><line x1="0" x2="300" y1="94" y2="94" stroke="#000" stroke-opacity=".18"></line><rect y="94" width="300" height="75.5" fill="url(#card-2-1)"></rect><line x1="0" x2="300" y1="169" y2="169" stroke="#000" stroke-opacity=".18"></line><rect y="169" width="300" height="25.5" fill="url(#card-2-2)"></rect><line x1="0" x2="300" y1="194" y2="194" stroke="#000" stroke-opacity=".18"></line><rect y="194" width="300" height="75.5" fill="url(#card-2-3)"></rect><line x1="0" x2="300" y1="269" y2="269" stroke="#000" stroke-opacity=".18"></line><rect y="269" width="300" height="50.5" fill="url(#card-2-4)"></rect><line x1="0" x2="300" y1="319" y2="319" stroke="#000" stroke-opacity=".18"></line><rect y="319" width="300" height="25.5" fill="url(#card-2-5)"></rect><line x1="0" x2="300" y1="344" y2="344" stroke="#000" stroke-opacity=".18"></line><rect y="20" width="300" height="350" fill="url(#card-2-grad)"></rect></g><path d="M64 26H236L268 342Q150 360 32 342Z" fill="none" stroke="#000" stroke-opacity=".25"></path></svg></div><h3>Yakan</h3><small>Basilan</small><span class="price-tag">From ₱400</span></div></button><button class="card" type="button" data-index="3"><div class="card-shell"><div class="card-preview"><svg viewBox="0 0 300 370" aria-hidden="true"><defs><pattern id="card-3-0" width="24" height="24" patternUnits="userSpaceOnUse" y="44"><rect width="24" height="24" fill="#1d4e89"></rect></pattern><pattern id="card-3-1" width="24" height="24" patternUnits="userSpaceOnUse" y="77.33333333333334"><rect width="24" height="24" fill="#1d4e89"></rect><rect x="4" width="5" height="24" fill="#f4f4f4"></rect><rect x="15" width="2" height="24" fill="#f4f4f4"></rect></pattern><pattern id="card-3-2" width="24" height="24" patternUnits="userSpaceOnUse" y="177.33333333333334"><rect width="24" height="24" fill="#e0a100"></rect></pattern><pattern id="card-3-3" width="24" height="24" patternUnits="userSpaceOnUse" y="210.66666666666669"><rect width="24" height="24" fill="#1d4e89"></rect><rect x="4" width="5" height="24" fill="#f4f4f4"></rect><rect x="15" width="2" height="24" fill="#f4f4f4"></rect></pattern><pattern id="card-3-4" width="24" height="24" patternUnits="userSpaceOnUse" y="310.6666666666667"><rect width="24" height="24" fill="#1d4e89"></rect></pattern><clipPath id="card-3-clip"><path d="M64 26H236L268 342Q150 360 32 342Z"></path></clipPath><linearGradient id="card-3-grad" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".4"></stop><stop offset=".22" stop-color="#000" stop-opacity="0"></stop><stop offset=".62" stop-color="#fff" stop-opacity=".12"></stop><stop offset=".78" stop-color="#000" stop-opacity="0"></stop><stop offset="1" stop-color="#000" stop-opacity=".4"></stop></linearGradient></defs><g clip-path="url(#card-3-clip)"><rect y="26" width="300" height="18" fill="#2a2438"></rect><rect y="44" width="300" height="33.833333333333336" fill="url(#card-3-0)"></rect><line x1="0" x2="300" y1="77.33333333333334" y2="77.33333333333334" stroke="#000" stroke-opacity=".18"></line><rect y="77.33333333333334" width="300" height="100.5" fill="url(#card-3-1)"></rect><line x1="0" x2="300" y1="177.33333333333334" y2="177.33333333333334" stroke="#000" stroke-opacity=".18"></line><rect y="177.33333333333334" width="300" height="33.833333333333336" fill="url(#card-3-2)"></rect><line x1="0" x2="300" y1="210.66666666666669" y2="210.66666666666669" stroke="#000" stroke-opacity=".18"></line><rect y="210.66666666666669" width="300" height="100.5" fill="url(#card-3-3)"></rect><line x1="0" x2="300" y1="310.6666666666667" y2="310.6666666666667" stroke="#000" stroke-opacity=".18"></line><rect y="310.6666666666667" width="300" height="33.833333333333336" fill="url(#card-3-4)"></rect><line x1="0" x2="300" y1="344" y2="344" stroke="#000" stroke-opacity=".18"></line><rect y="20" width="300" height="350" fill="url(#card-3-grad)"></rect></g><path d="M64 26H236L268 342Q150 360 32 342Z" fill="none" stroke="#000" stroke-opacity=".25"></path></svg></div><h3>Everyday stripes</h3><small>Plain tubular</small><span class="price-tag">From ₱300</span></div></button><button class="card" type="button" data-custom="true"><div class="card-shell"><div class="card-preview"><svg viewBox="0 0 300 370" aria-hidden="true"><defs><pattern id="custom-card-0" width="24" height="24" patternUnits="userSpaceOnUse" y="44"><rect width="24" height="24" fill="#7a1020"></rect></pattern><pattern id="custom-card-1" width="24" height="24" patternUnits="userSpaceOnUse" y="69"><rect width="24" height="24" fill="#c8102e"></rect><rect x="4" width="5" height="24" fill="#f2b705"></rect><rect x="15" width="2" height="24" fill="#f2b705"></rect></pattern><pattern id="custom-card-2" width="24" height="24" patternUnits="userSpaceOnUse" y="119"><rect width="24" height="24" fill="#f2b705"></rect><path d="M0 12C6 0 12 0 12 12S18 24 24 12" stroke="#2b1b4a" stroke-width="2.5" fill="none"></path><circle cx="12" cy="12" r="2.4" fill="#2b1b4a"></circle></pattern><pattern id="custom-card-3" width="24" height="24" patternUnits="userSpaceOnUse" y="244"><rect width="24" height="24" fill="#1f6f50"></rect><path d="M12 2 22 12 12 22 2 12Z" fill="#f2b705"></path><path d="M12 8 16 12 12 16 8 12Z" fill="#1f6f50"></path></pattern><pattern id="custom-card-4" width="24" height="24" patternUnits="userSpaceOnUse" y="294"><rect width="24" height="24" fill="#7a1020"></rect><rect x="4" width="5" height="24" fill="#f2b705"></rect><rect x="15" width="2" height="24" fill="#f2b705"></rect></pattern><clipPath id="custom-card-clip"><path d="M64 26H236L268 342Q150 360 32 342Z"></path></clipPath><linearGradient id="custom-card-grad" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".4"></stop><stop offset=".22" stop-color="#000" stop-opacity="0"></stop><stop offset=".62" stop-color="#fff" stop-opacity=".12"></stop><stop offset=".78" stop-color="#000" stop-opacity="0"></stop><stop offset="1" stop-color="#000" stop-opacity=".4"></stop></linearGradient></defs><g clip-path="url(#custom-card-clip)"><rect y="26" width="300" height="18" fill="#2a2438"></rect><rect y="44" width="300" height="25.5" fill="url(#custom-card-0)"></rect><line x1="0" x2="300" y1="69" y2="69" stroke="#000" stroke-opacity=".18"></line><rect y="69" width="300" height="50.5" fill="url(#custom-card-1)"></rect><line x1="0" x2="300" y1="119" y2="119" stroke="#000" stroke-opacity=".18"></line><rect y="119" width="300" height="125.5" fill="url(#custom-card-2)"></rect><line x1="0" x2="300" y1="244" y2="244" stroke="#000" stroke-opacity=".18"></line><rect y="244" width="300" height="50.5" fill="url(#custom-card-3)"></rect><line x1="0" x2="300" y1="294" y2="294" stroke="#000" stroke-opacity=".18"></line><rect y="294" width="300" height="50.5" fill="url(#custom-card-4)"></rect><line x1="0" x2="300" y1="344" y2="344" stroke="#000" stroke-opacity=".18"></line><rect y="20" width="300" height="350" fill="url(#custom-card-grad)"></rect></g><path d="M64 26H236L268 342Q150 360 32 342Z" fill="none" stroke="#000" stroke-opacity=".25"></path></svg></div><h3>Design your own</h3><small>Custom, made to order</small><span class="price-tag">From ₱1,500</span></div></button></div>
+      <p class="note">Sample prices in Philippine pesos. Ready-made designs ship in 3–5 days. Custom designs are made to order.</p>
+      </section>
+
+      <section class="heritage-section" id="heritage" aria-labelledby="heritageTitle">
+        <div class="heritage-copy">
+          <span class="section-kicker">Our Heritage</span>
+          <h2 id="heritageTitle">A living tradition, woven forward.</h2>
+          <p>Malong Studio celebrates the artistry and everyday beauty of Filipino weaving. Inspired by the vivid textiles of Mindanao, each design honors the hands, stories, and communities behind the cloth while bringing heritage into modern life.</p>
+          <p>We believe a malong is more than fabric: it is a versatile expression of identity, craft, and connection.</p>
+        </div>
+        <div class="heritage-art" aria-hidden="true"><div class="heritage-stamp">Made with care<br>in the Philippines</div></div>
+      </section>
+
+      <section class="culture-section" aria-labelledby="cultureTitle">
+        <div class="section-heading">
+          <span class="section-kicker">Crafted with Culture</span>
+          <h2 id="cultureTitle">Distinct patterns. Shared heritage.</h2>
+          <p>Explore the regional weaving traditions that inspire our collection.</p>
+        </div>
+        <div class="culture-grid">
+          <article class="culture-card">
+            <div class="culture-motif" aria-hidden="true"></div>
+            <h3>Maranao Landap</h3>
+            <p>Bold bands and flowing okir-inspired forms celebrate the visual language of Maranao artistry.</p>
+          </article>
+          <article class="culture-card">
+            <div class="culture-motif" aria-hidden="true"></div>
+            <h3>Maguindanao Inaul</h3>
+            <p>Colorful geometric rhythms and fine woven details honor the rich Inaul tradition.</p>
+          </article>
+          <article class="culture-card">
+            <div class="culture-motif" aria-hidden="true"></div>
+            <h3>Yakan Weaving</h3>
+            <p>Vivid color and intricate geometry take inspiration from the distinctive textiles of Basilan.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="custom-promo" id="custom-promo" aria-labelledby="customTitle">
+        <div>
+          <span class="section-kicker" style="color: #e8c77d;">Your cloth, your story</span>
+          <h2 id="customTitle">Design a malong that is entirely your own.</h2>
+          <p>Choose your patterns, colors, and finishing details in our live design studio. Create a piece that feels personal and rooted in heritage.</p>
+        </div>
+        <button type="button" class="primary" id="startDesigning">Start Designing</button>
+      </section>
+    </section>
+
+    <section id="detailView" class="hidden">
+      <button type="button" class="back" id="backButton">← All designs</button>
+      <div class="detail-page">
+        <div class="preview-panel">
+          <div class="preview-box">
+            <svg id="preview" viewBox="0 0 300 370" role="img" aria-label="Malong preview"><defs><pattern id="detail-preview-0" width="24" height="24" patternUnits="userSpaceOnUse" y="44"><rect width="24" height="24" fill="#7a1020"></rect></pattern><pattern id="detail-preview-1" width="24" height="24" patternUnits="userSpaceOnUse" y="69"><rect width="24" height="24" fill="#c8102e"></rect><rect x="4" width="5" height="24" fill="#f2b705"></rect><rect x="15" width="2" height="24" fill="#f2b705"></rect></pattern><pattern id="detail-preview-2" width="24" height="24" patternUnits="userSpaceOnUse" y="119"><rect width="24" height="24" fill="#f2b705"></rect><path d="M0 12C6 0 12 0 12 12S18 24 24 12" stroke="#2b1b4a" stroke-width="2.5" fill="none"></path><circle cx="12" cy="12" r="2.4" fill="#2b1b4a"></circle></pattern><pattern id="detail-preview-3" width="24" height="24" patternUnits="userSpaceOnUse" y="244"><rect width="24" height="24" fill="#1f6f50"></rect><path d="M12 2 22 12 12 22 2 12Z" fill="#f2b705"></path><path d="M12 8 16 12 12 16 8 12Z" fill="#1f6f50"></path></pattern><pattern id="detail-preview-4" width="24" height="24" patternUnits="userSpaceOnUse" y="294"><rect width="24" height="24" fill="#7a1020"></rect><rect x="4" width="5" height="24" fill="#f2b705"></rect><rect x="15" width="2" height="24" fill="#f2b705"></rect></pattern><clipPath id="detail-preview-clip"><path d="M64 26H236L268 342Q150 360 32 342Z"></path></clipPath><linearGradient id="detail-preview-grad" x1="0" x2="1"><stop offset="0" stop-color="#000" stop-opacity=".4"></stop><stop offset=".22" stop-color="#000" stop-opacity="0"></stop><stop offset=".62" stop-color="#fff" stop-opacity=".12"></stop><stop offset=".78" stop-color="#000" stop-opacity="0"></stop><stop offset="1" stop-color="#000" stop-opacity=".4"></stop></linearGradient></defs><g clip-path="url(#detail-preview-clip)"><rect y="26" width="300" height="18" fill="#2a2438"></rect><rect y="44" width="300" height="25.5" fill="url(#detail-preview-0)"></rect><line x1="0" x2="300" y1="69" y2="69" stroke="#000" stroke-opacity=".18"></line><rect y="69" width="300" height="50.5" fill="url(#detail-preview-1)"></rect><line x1="0" x2="300" y1="119" y2="119" stroke="#000" stroke-opacity=".18"></line><rect y="119" width="300" height="125.5" fill="url(#detail-preview-2)"></rect><line x1="0" x2="300" y1="244" y2="244" stroke="#000" stroke-opacity=".18"></line><rect y="244" width="300" height="50.5" fill="url(#detail-preview-3)"></rect><line x1="0" x2="300" y1="294" y2="294" stroke="#000" stroke-opacity=".18"></line><rect y="294" width="300" height="50.5" fill="url(#detail-preview-4)"></rect><line x1="0" x2="300" y1="344" y2="344" stroke="#000" stroke-opacity=".18"></line><rect y="20" width="300" height="350" fill="url(#detail-preview-grad)"></rect></g><path d="M64 26H236L268 342Q150 360 32 342Z" fill="none" stroke="#000" stroke-opacity=".25"></path></svg>
+          </div>
+        </div>
+
+        <div>
+          <div class="product-header">
+            <h2 id="productName">Design your own</h2>
+            <div id="productOrigin" class="origin">Custom, made to order</div>
+            <div id="priceReadout" class="price-readout">₱3,000</div>
+          </div>
+
+          <div id="readyPanel" class="hidden">
+            <div class="label">Colorway</div>
+            <div id="colorways" class="chip-row"></div>
+          </div>
+
+          <div id="customPanel" class="">
+            <div class="label">Bands, from the waist down</div>
+            <div id="bandEditor" class="band-editor"><div class="band-block" data-index="0"><div class="band-top"><span>Band 1</span><div><button type="button" class="mini" data-action="up" data-index="0" disabled="">↑</button><button type="button" class="mini" data-action="remove" data-index="0">✕</button></div></div><div class="band-row"><select data-index="0" data-key="pattern"><option value="solid" selected="">Solid</option><option value="stripe">Stripes</option><option value="diamond">Diamonds</option><option value="zigzag">Zigzag</option><option value="okir">Okir vine</option><option value="check">Checks</option></select><input type="color" data-index="0" data-key="color1" value="#7a1020"><input type="color" data-index="0" data-key="color2" value="#7a1020"></div><div class="band-row" style="margin-top: 8px;"><select data-index="0" data-key="thickness"><option value="1" selected="">Thin</option><option value="2">Medium</option><option value="3">Wide</option><option value="5">Extra wide</option></select></div></div><div class="band-block" data-index="1"><div class="band-top"><span>Band 2</span><div><button type="button" class="mini" data-action="up" data-index="1">↑</button><button type="button" class="mini" data-action="remove" data-index="1">✕</button></div></div><div class="band-row"><select data-index="1" data-key="pattern"><option value="solid">Solid</option><option value="stripe" selected="">Stripes</option><option value="diamond">Diamonds</option><option value="zigzag">Zigzag</option><option value="okir">Okir vine</option><option value="check">Checks</option></select><input type="color" data-index="1" data-key="color1" value="#c8102e"><input type="color" data-index="1" data-key="color2" value="#f2b705"></div><div class="band-row" style="margin-top: 8px;"><select data-index="1" data-key="thickness"><option value="1">Thin</option><option value="2" selected="">Medium</option><option value="3">Wide</option><option value="5">Extra wide</option></select></div></div><div class="band-block" data-index="2"><div class="band-top"><span>Band 3</span><div><button type="button" class="mini" data-action="up" data-index="2">↑</button><button type="button" class="mini" data-action="remove" data-index="2">✕</button></div></div><div class="band-row"><select data-index="2" data-key="pattern"><option value="solid">Solid</option><option value="stripe">Stripes</option><option value="diamond">Diamonds</option><option value="zigzag">Zigzag</option><option value="okir" selected="">Okir vine</option><option value="check">Checks</option></select><input type="color" data-index="2" data-key="color1" value="#f2b705"><input type="color" data-index="2" data-key="color2" value="#2b1b4a"></div><div class="band-row" style="margin-top: 8px;"><select data-index="2" data-key="thickness"><option value="1">Thin</option><option value="2">Medium</option><option value="3">Wide</option><option value="5" selected="">Extra wide</option></select></div></div><div class="band-block" data-index="3"><div class="band-top"><span>Band 4</span><div><button type="button" class="mini" data-action="up" data-index="3">↑</button><button type="button" class="mini" data-action="remove" data-index="3">✕</button></div></div><div class="band-row"><select data-index="3" data-key="pattern"><option value="solid">Solid</option><option value="stripe">Stripes</option><option value="diamond" selected="">Diamonds</option><option value="zigzag">Zigzag</option><option value="okir">Okir vine</option><option value="check">Checks</option></select><input type="color" data-index="3" data-key="color1" value="#1f6f50"><input type="color" data-index="3" data-key="color2" value="#f2b705"></div><div class="band-row" style="margin-top: 8px;"><select data-index="3" data-key="thickness"><option value="1">Thin</option><option value="2" selected="">Medium</option><option value="3">Wide</option><option value="5">Extra wide</option></select></div></div><div class="band-block" data-index="4"><div class="band-top"><span>Band 5</span><div><button type="button" class="mini" data-action="up" data-index="4">↑</button><button type="button" class="mini" data-action="remove" data-index="4">✕</button></div></div><div class="band-row"><select data-index="4" data-key="pattern"><option value="solid">Solid</option><option value="stripe" selected="">Stripes</option><option value="diamond">Diamonds</option><option value="zigzag">Zigzag</option><option value="okir">Okir vine</option><option value="check">Checks</option></select><input type="color" data-index="4" data-key="color1" value="#7a1020"><input type="color" data-index="4" data-key="color2" value="#f2b705"></div><div class="band-row" style="margin-top: 8px;"><select data-index="4" data-key="thickness"><option value="1">Thin</option><option value="2" selected="">Medium</option><option value="3">Wide</option><option value="5">Extra wide</option></select></div></div></div>
+            <button type="button" class="secondary" id="addBand">+ Add band</button>
+            <div class="label">Name or initials at the hem (optional)</div>
+            <div class="field">
+              <input type="text" id="embroidery" maxlength="12" aria-label="Embroidery text" placeholder="Name or initials">
+            </div>
+          </div>
+
+          <div class="label">Fabric</div>
+          <div id="fabricOptions" class="chip-row"><label class="chip"><input type="radio" name="fabric" value="0" checked=""><span>Cotton blend</span></label><label class="chip"><input type="radio" name="fabric" value="1"><span>Pure cotton</span></label><label class="chip"><input type="radio" name="fabric" value="2"><span>Silk blend</span></label><label class="chip"><input type="radio" name="fabric" value="3"><span>Handwoven</span></label></div>
+
+          <div class="label">Size</div>
+          <div id="sizeOptions" class="chip-row"><label class="chip"><input type="radio" name="size" value="0" checked=""><span>Regular</span></label><label class="chip"><input type="radio" name="size" value="1"><span>Long + ₱150</span></label><label class="chip"><input type="radio" name="size" value="2"><span>Plus width + ₱200</span></label></div>
+
+          <div class="label">Quantity</div>
+          <div class="qty-wrap">
+            <button type="button" class="qty-btn" id="decreaseQty" aria-label="Decrease quantity">−</button>
+            <span id="qtyValue" class="qty-value">2</span>
+            <button type="button" class="qty-btn" id="increaseQty" aria-label="Increase quantity">+</button>
+          </div>
+
+          <div class="breakdown">
+            <div id="priceBreakdown"><div class="breakdown-row"><span>Custom design (up to 6 bands)</span><span>₱1,500</span></div><div class="breakdown-row"><span>× 2 pieces (₱1,500 each)</span><span>₱1,500</span></div></div>
+            <div class="total"><span>Total</span><span id="totalPrice">₱3,000</span></div>
+            <p id="leadTime" class="lead">Custom-made products: 2–3 weeks.</p>
+          </div>
+
+          <button type="button" id="createSummary" class="primary">Create my order summary</button>
+          <pre id="summaryBox" class="summary hidden"></pre>
+          <button type="button" id="copySummary" class="secondary hidden">Copy summary</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="footer-brand-block">
+        <div class="footer-brand">MALONG STUDIO</div>
+        <p>Woven with Heritage. Made in the Philippines.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <a href="#home" data-nav="home">Home</a>
+        <a href="#catalog" data-nav="collections">Collections</a>
+        <a href="#custom-promo" data-nav="custom">Design Your Own</a>
+        <a href="#heritage" data-nav="heritage">About Us</a>
+      </div>
+      <div>
+        <h3>Collections</h3>
+        <a href="#catalog" data-product="0">Landap · Maranao</a>
+        <a href="#catalog" data-product="1">Inaul · Maguindanao</a>
+        <a href="#catalog" data-product="2">Yakan · Basilan</a>
+        <a href="#catalog" data-product="3">Everyday Stripes</a>
+      </div>
+      <div>
+        <h3>Get in touch</h3>
+        <p>Questions about your order or a custom piece?</p>
+        <a href="mailto:hello@malongstudio.example">hello@malongstudio.example</a>
+        <p>Philippines</p>
+      </div>
+      <p class="copyright">© 2026 Malong Studio. Woven with care and respect for Filipino craft.</p>
+    </footer>
+  </div>
+```
+
+Dimensions:
+- top: 0px
+- left: 0px
+- width: 1425px
+- height: 3712px
+
+CSS:
+```css
+* { box-sizing: border-box; }
+.container { max-width: 1160px;
+      margin: 0 auto;
+      padding: 0 20px 56px;
+      position: relative; }
+.container { width: 100%;
+      max-width: 1600px;
+      padding: 0 clamp(20px, 5vw, 76px) 72px; }
+
+/* Pseudo-elements */
+.container::before { content: "";
+      position: absolute;
+      inset: 42px 0 auto 0;
+      height: 100%;
+      background-image:
+        linear-gradient(to right, rgba(112, 38, 50, 0.04), transparent 14%, transparent 86%, rgba(217, 164, 65, 0.04)),
+        linear-gradient(180deg, rgba(49, 91, 69, 0.02), transparent 30%);
+      pointer-events: none; }
+.container::before { display: none; }
+
+/* Inherited */
+body { color: var(--ink); font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.55 }
+body { color: var(--ink) }
+
+/* Resolved values */
+margin: 0px;
+padding: 0px 72px 72px;
+background-image: none;
+bottom: 0px;
+box-sizing: border-box;
+color: rgb(56, 43, 37);
+content: normal;
+display: block;
+font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+height: 3712.36px;
+left: 0px;
+line-height: 24.8px;
+max-width: 1600px;
+pointer-events: auto;
+position: relative;
+right: 0px;
+top: 0px;
+unicode-bidi: isolate /*UA*/;
+width: 1425px;
+
+/* CSS variables */
+--ink: #382b25;
+```
